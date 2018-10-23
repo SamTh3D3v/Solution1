@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    public class CommonClass
+    public static class CommonClass
     {
+        public static void CommonMethod()
+        {
+            Console.WriteLine("Common Method");
+        } 
     }
 }
